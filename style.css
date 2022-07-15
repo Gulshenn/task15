@@ -1,0 +1,58 @@
+body{
+    background-image: url("cafe.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+header p{
+    text-align: center;
+    background-color: white;
+    width: fit-content;
+    padding: 20px  45px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+}
+.item{
+    display:flex;
+    gap: 20px;
+}
+.item .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.item p{
+    color:yellow;
+    margin:0 0 11px 0;
+}
+.item span{
+    color:white;
+    font-size:14px;
+}
+.item img{
+    border-radius: 10px;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.container section{
+    background-color:#54463b;  
+    padding:50px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.section2 .item{
+    display:flex;
+    flex-direction:row-reverse;
+}
+.section2 .item .text-box{
+    align-items: flex-end;
+}
